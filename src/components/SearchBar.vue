@@ -1,5 +1,5 @@
-<template>
-<div>
+<template >
+<div class="container">
   <input type="text" @input="onInput" />
 </div>
 </template>
@@ -18,6 +18,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+  input{
+    width: 75%;
+  }
+  div{
+    text-align: center;
+    margin:20px;
+  }
 
 </style>
